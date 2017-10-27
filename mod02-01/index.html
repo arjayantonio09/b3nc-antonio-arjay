@@ -2,6 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="x-ua-compatible" content="ie=edge">
+
 	<title>My Second Website - This is the best website ever!</title>
 	<style type="text/css">
 		table, tr, th, td {
@@ -328,7 +331,7 @@
 
 	<form action="" method="">
 		<button>
-			<img src="img/goldengate.jpg" alt="The Golden gate Bridge">The Golden gate Bridge
+			<img src="img/goldengate.jpg" alt="The Golden gate Bridge">The Golden Gate Bridge
 		</button>
 	</form>
 
@@ -359,26 +362,23 @@
 
 	<hr>
 
-	<fieldset>
-		<legend>Your Details</legend>
+	<form action="" method="" style="width: 50%;">
+		<fieldset>
+			<legend>Your Details</legend>
 
-		<label for="name">Name</label>
-		<input type="name" name="name">
+			<label for="name">Name</label>
+			<input type="text" name="name">
 
-		<label for="email">Email</label>
-		<input type="email" name="email">
+			<br>
+			
+			<label for="email">Email</label>
+			<input type="email" name="email">
+		</fieldset>	
 
-	</fieldset>
-
-	<br>
-
-	<fieldset>
-		<legend>Your Review</legend>
-		
-		<form>
-			<label for="mode">How did you hear abour us</label>
-				<form action="" method="">
-				<select name="mode">
+		<fieldset>
+			<legend>Your Review</legend>
+			<label for="mode">How did you hear abour us</label>				
+			<select name="mode">
 				<option value="google" selected>Google</option>
 				<option value="facebook">Facebook</option>
 				<option value="instagram">Instagram</option>
@@ -386,30 +386,35 @@
 				<option value="website">Website</option>
 				<option value="referral">Referral</option>
 			</select>
-		</form>
-	
-	<br>
 
-	<label for="choose">Would you visit us again?</label>
-	
-	<br>
-	
-	<input type="radio" name="choose" value="yes">Yes
-	<input type="radio" name="choose" value="no">No
-	<input type="radio" name="choose" value="maybe">Maybe
+		<br><br>
 
-	<br>
+		<label for="choose">Would you visit us again?</label>
 
-	<p>Comments</p>
-	<textarea></textarea>
+		<br>
 
-	<br>
-	<input type="checkbox" name="">Sign me up for email address
+		<input type="radio" name="choose">Yes
+		<input type="radio" name="choose">No
+		<input type="radio" name="choose">Maybe
 
-	<br>
+		<br><br>
 
-	<input type="submit" name="submit" value="Submit Review">
-	</fieldset>
+		<label>Comments</label>
+
+		<br>
+
+		<textarea rows="2" cols="40"></textarea>
+
+		<br><br>
+
+		<input type="checkbox" name="check" checked>Sign me up for email updates
+
+		<br>
+
+		<input type="submit" name="submit" value="Submit Review">
+		</fieldset>
+	</form>
+
 
 </body>
 </html>
