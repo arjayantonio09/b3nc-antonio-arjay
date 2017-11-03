@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>DOM Activity 3</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<form style="border: 1px solid black; width: 50%">
 		<header>
-			<h1>Tuitt Coding Boothcamp</h1>
+			<h1>Tuitt Coding Bootcamp</h1>
 		</header>
 		
-		<div>
-			<h1>Dashboard</h1>
-		</div>
+		<main>
+			<div>
+				<h2><i class="fa fa-home" aria-hidden="true"></i> Dashboard</h2>
+			</div>
 
-		<div>
-			<h1>New Post</h1>
-				<input type="text" name="post" placeholder="Enter your post title"><br>
-				<input type="text" name="content" placeholder="Enter your content here""><br>
-				<input type="submit" name="publish" value="Publish">
-		</div>
+			<div>
+				<h2><i class="fa fa-file" aria-hidden="true"></i> New Post</h2>
+					<input type="text" name="post" placeholder="Enter your post title">
+					<textarea placeholder="Enter post content here"></textarea>
+					<input type="submit" name="publish" value="Publish">
+			</div>
 
-		<div>
-			<h2>Upload Image</h2>
-				<img src="300X300.png" style="height:100px; width: 100px">
-				<img src="300X300.png" style="height:100px; width: 100px">
-				<img src="300X300.png" style="height:100px; width: 100px">
-				<img src="300X300.png" style="height:100px; width: 100px">
-				<img src="300X300.png" style="height:100px; width: 100px"><br>
-				<input type="file" name="browse" value="Browse">
-				<input type="submit" name="upload" value="Upload">
-		</div>
+			<div>
+				<h2><i class="fa fa-cloud-upload" aria-hidden="true"></i> Upload Image</h2>
+					<img src="300X300.png" alt="" style="height:100px; width: 100px">
+					<img src="300X300.png" alt="" style="height:100px; width: 100px">
+					<img src="300X300.png" alt="" style="height:100px; width: 100px">
+					<img src="300X300.png" alt="" style="height:100px; width: 100px">
+					<img src="300X300.png" alt="" style="height:100px; width: 100px"><br>
 
-		<br><br><br>
+				<form action="" method="">
+					<input type="file" name="" hidden>
+					<input type="submit" name="browse" value="Browse">
+					<input type="submit" name="upload" value="Upload">
+				</form>
+			</div>
+		</main>
+
 		<footer>
 			<span>Tuitt Coding Boothcamp &copy; 2017</span>
 		</footer>
-	</form>
 </body>
 </html>
