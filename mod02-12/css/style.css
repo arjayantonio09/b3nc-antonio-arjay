@@ -5,6 +5,7 @@
 /* removes default margin to document */
 body {
 	margin: 0;
+	font-family:'Delius', cursive;
 }
 
 .nav,
@@ -25,7 +26,7 @@ body {
 
 /* Navigation */
 .nav {
-	background-color: yellow;
+	/* background-color: yellow; */
 	height: 100%;
 	width: 200px;
 	position: fixed;
@@ -48,37 +49,49 @@ ul > li > a {
 	text-decoration: none;
 }
 
+.navi:hover {
+	background-color: darkgrey;
+	color: white;
+}
+
 .main {
-	background-color: grey;
+	/* background-color: grey; */
 	margin-left: 200px;
 }
 
 /* Banner */
 .banner {
-	background-color: skyblue;
+	/* background-color: skyblue; */
 	position: relative;
 	min-height: 700px;
+}
+
+.city {
+	width: 100%;
+	height: 700px;
+	opacity: 0.80;
 }
 
 .box {
 	border: 5px solid white;
 	text-align: center;
-	width: 40%;
+	width: 50%;
 	padding: 40px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	color: white;
 }
 
 .about {
-	background-color: indianred;
+	/* background-color: indianred; */
 	min-height: 300px;
 }
 
 /* Services */
 .services {
-	background-color: midnightblue;
+	background: linear-gradient(white, powderblue);
 	min-height: 300px;
 }
 
@@ -111,13 +124,13 @@ ul > li > a {
 }
 
 .projects {
-	background-color: crimson;
+	/* background-color: crimson; */
 	min-height: 300px;
 }
 
 /* Gallery */
 .gallery {
-	background-color: orange;
+	background: linear-gradient(white, lightblue);
 	min-height: 400px;
 }
 
@@ -138,18 +151,18 @@ ul > li > a {
 
 /* Footer */
 .footer {
-	background-color: green;
-	min-height: 70px;
+	background-color: lightblue;
+	min-height: 40px;
+}
+
+.social {
+	text-align: center;
 }
 
 .contact {
-	float: right;
-}
-
-img[alt*="Social"] {
-	width: 50px;
-	height: 50px;
-	border: 1px solid black;
-	border-radius: 50%;
+	float: left;
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
 }
 
