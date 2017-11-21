@@ -38,7 +38,7 @@ ul {
 
 ul > li {
 	list-style: none;
-	background-color: lightblue;
+	background: linear-gradient(to right, #4080bf, #006699);
 	margin-bottom: 2px;
 	text-align: center;
 	line-height: 48px;
@@ -47,11 +47,16 @@ ul > li {
 
 ul > li > a {
 	text-decoration: none;
+	display: block;
+	color: white;
 }
 
 .navi:hover {
-	background-color: darkgrey;
-	color: white;
+	background: linear-gradient(to right, white, white);
+}
+
+ul li a:hover {
+	color: black;
 }
 
 .main {
@@ -63,12 +68,12 @@ ul > li > a {
 .banner {
 	/* background-color: skyblue; */
 	position: relative;
-	min-height: 700px;
+	min-height: 600px;
 }
 
 .city {
 	width: 100%;
-	height: 700px;
+	height: 600px;
 	opacity: 0.80;
 }
 
@@ -91,7 +96,7 @@ ul > li > a {
 
 /* Services */
 .services {
-	background: linear-gradient(white, powderblue);
+	background: linear-gradient(white, powderblue, white);
 	min-height: 300px;
 }
 
@@ -130,7 +135,7 @@ ul > li > a {
 
 /* Gallery */
 .gallery {
-	background: linear-gradient(white, lightblue);
+	background: linear-gradient(white, lightblue, white);
 	min-height: 400px;
 }
 
@@ -151,18 +156,36 @@ ul > li > a {
 
 /* Footer */
 .footer {
-	background-color: lightblue;
+	/* background-color: lightblue; */
+	background: linear-gradient(white, #4080bf, #006699);
 	min-height: 40px;
-}
-
-.social {
-	text-align: center;
 }
 
 .contact {
 	float: left;
 	width: 40px;
-	height: 40px;
-	font-size: 24px;
+	height: 45px;
+	font-size: 35px;
 }
+
+.fa-facebook {
+	background-color: #3b5998;
+}
+
+.fa-instagram {
+	background-color: #bc2a8d
+}
+
+.fa-twitter {
+	background-color: #55acee;
+}
+
+.fa-youtube-play {
+	background-color: #ff0000;
+}
+
+.fa-google-plus {
+	background-color: #dd4b39;
+}
+
 
