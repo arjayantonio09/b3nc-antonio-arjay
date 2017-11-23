@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Marvel', sans-serif;
+}
+
+body {
+	background-color: #f1f1f4;
+}
+
+/* navigation */
+.navigation {
+	background-color: black;
+	padding: 20px;
+	position: relative;
+}
+
+h1,
+small {
+	color: white;
+	margin-left: 200px;
+}
+
+.menu {
+	position: absolute;
+	top: 20px;
+	right: 200px;
+}
+
+ul li {
+	list-style: none;
+	float: right;
+	display: block;
+	width: auto;
+	padding: 10px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+
+ul li a:hover {
+	background-color: white;
+	color: black;
+}
+
+.clear:after {
+	content: ""; 
+	clear: both;
+	display: block;
+}
+
+/* slider */
+.slider > img {
+	width: 100%;
+	height: 700px;
+	opacity: 0.80;
+}
+
+.slider > img:hover {
+	opacity: 1;
+}
+
+/* content wrapper */
+/* left section */
+.container {
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.left-wrapper {
+	width: 70%;
+	margin: 0 auto;
+	float: left;
+}
+
+.section1 {
+	width: 100%;
+	padding: 20px;
+	margin: 20px 0px 30px;
+	border-bottom: 5px solid #006699;
+	background-color: white;
+	position: relative;
+	box-shadow: 5px 5px 10px grey;
+}
+
+span {
+	font-size: 13px;
+}
+
+.column1 {
+	float: left;
+	margin: 15px 0px;
+}
+
+.box1 {
+	width: 30%;
+	margin-right: 10px;
+}
+
+.box2 {
+	height: 120px;
+	width: 100%;
+	margin: 5px 0px;
+	border: 1px solid grey;
+}
+
+.box3 {
+	width: 98%;
+	height: 95%;
+	margin: 2px;
+}
+
+.content {
+	width: 65%;
+	padding-left: 15px;
+	text-align: justify;
+	margin-bottom: 45px;
+}
+
+p,
+.read-more {
+	font-size: 14px;
+}
+
+.read-more {
+	position: absolute;
+	right: 15px;
+	bottom: 20px;
+}
+
+/* right Section */
+.right-wrapper {
+	width: 25%;
+	float: right;
+}
+
+.section2 {
+	padding: 20px;
+	margin: 20px 10px 30px;
+	border-bottom: 5px solid #ffcc66;
+	background-color: white;
+	box-shadow: 5px 5px 10px grey;
+}
+
+.textbox {
+	padding: 8px;
+	height: 32px;
+	width: 130px;
+}
+
+.search {
+	padding: 8px;
+	background-color: #ffcc66
+}
+
+.box5 {
+	width: 20%;
+	margin-right: 10px;
+}
+
+.box6 {
+	height: 50px;
+	width: 50px;
+	border: 1px solid grey;
+}
+
+.box7 {
+	width: 95%;
+	margin: 1px;
+}
+
+.column2 {
+	float: left;
+}
+
+.submenu a {
+	color: #ff6666;
+	text-decoration: none;
+}
+
+.home {
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+}
+
+/* footer */
+.footer {
+	height: 50px;
+	background-color: black;
+	position: relative;
+}
+
+.footer-text {
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
