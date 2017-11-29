@@ -15,3 +15,6 @@ Can order and inquire about the products online
 Can contact and connect to the seller via social media
 
 [Wireframe1] https://wireframe.cc/xEuuD2
+[Wireframe2] https://wireframe.cc/ETQxNb
+[Wireframe3] https://wireframe.cc/GHEm1f
+[Wireframe4] https://wireframe.cc/DD5bWV
