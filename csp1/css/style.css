@@ -5,21 +5,15 @@ body {
 	letter-spacing: 1px;
 }
 
-
-
 /* body content */
-div[class*="col-lg"] {
-	/* border: 5px solid black; */
-	float: left;
-}
-
 .article {
-	margin-top: 30px;
+	margin: 30px 0px;
 }
 
 .article-image {
+	margin: 10px 0px;
 	padding: 0;
-	margin: 10px;
+
 }
 
 span {
@@ -32,15 +26,13 @@ span {
 /* subscription page */
 .subscribe {
 	padding: 50px 0px;
-	margin: 20px 0px;
 	border-radius: 0px;
 }
 
 .btn,
 .form {
-	margin-top: 30px;
 	height: 45px;
-	padding: 0px 40px;
+	padding: 0px 20px;
 	border-radius: 0px;
 }
 
@@ -49,7 +41,7 @@ span {
 }
 
 .btn:hover {
-	color: white;
+	color: white; 
 	background-color: #666666; 
 }
 
@@ -74,5 +66,50 @@ span {
 	cursor: pointer;
 }
 
-/* tablet or medium-sized devices */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+/* Small devices Tablets (≥768px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.col-sm-6 {
+		width: 50%;
+	}
+
+	.col-sm-12 {
+		width: 100%;
+	}
+}
+
+/* Medium devices Desktops (≥992px)  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+/* Large devices Desktops (≥1200px)  */
+@media only screen and (min-width: 1200px) {
+	.container {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.col-lg-6 {
+		width: 50%;
+	}
+
+	.col-lg-12 {
+		width: 100%;
+	}
+}
