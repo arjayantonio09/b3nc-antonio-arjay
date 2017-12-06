@@ -12,49 +12,35 @@ ul li a {
 	color: #666666;
 }
 
-button > a {
-	color: #666666;
+/* Extra small devices Phones (<768px) */
+/* contact us page */
+.contact-page {
+	position: relative;
 }
 
-button > a:hover {
-	color: white;
-	text-decoration: none;
-}
-
-/* Extra small devices Phones (<768px)  */
-/* body content */
-.article {
-	margin: 30px 0px;
-}
-
-.article-image {
-	margin: 10px 0px;
-	padding: 0;
-
-}
-
-span {
+h4 {
+	margin: 10px 0px 20px;
 	text-transform: uppercase;
-	letter-spacing: 3px;
-	font-size: 13px;
 	font-weight: bold;
 }
 
-/* subscription page */
-.subscribe {
-	padding: 50px 0px;
-	border-radius: 0px;
-	margin: 25px 15px 35px; 
+.contact-image {
+	min-height: 700px;
 }
 
-.btn,
-.form {
-	height: 45px;
-	padding: 0px 20px;
-	border-radius: 0px;
+.contact-form {
+	min-width: 350px;
+	position: absolute;
+	bottom: 10%;
+	right: 50%;
+	transform: translate(50%, 10%);
+	opacity: 0.9;
 }
 
 .btn {
+	height: 45px;
+	padding: 0px 20px;
+	border-radius: 0px;
 	border: 2px solid #666666;
 }
 
@@ -94,6 +80,23 @@ span {
 	.col-sm-6 {
 		width: 50%;
 	}
+
+	.contact-page {
+		position: relative;
+	}
+
+	.contact-image {
+		min-height: 700px;
+	}
+
+	.contact-form {
+		min-width: 400px;
+		position: absolute;
+		bottom: 10%;
+		right: 50%;
+		transform: translate(50%, 10%);
+		opacity: 0.9;
+	}
 }
 
 /* Medium devices Desktops (≥992px)  */
@@ -106,6 +109,23 @@ span {
 	.col-md-6 {
 		width: 50%;
 	}
+
+	.contact-page {
+		position: relative;
+	}
+
+	.contact-image {
+		min-height: 700px;
+	}
+
+	.contact-form {
+		min-width: 450px;
+		position: absolute;
+		bottom: 10%;
+		right: 50%;
+		transform: translate(50%, 10%);
+		opacity: 0.9;
+	}
 }
 
 /* Large devices Desktops (≥1200px)  */
@@ -117,5 +137,22 @@ span {
 
 	.col-lg-6 {
 		width: 50%;
+	}
+
+	.contact-page {
+		position: relative;
+	}
+
+	.contact-image {
+		min-height: 700px;
+	}
+
+	.contact-form {
+		min-width: 500px;
+		position: absolute;
+		bottom: 10%;
+		right: 50%;
+		transform: translate(50%, 10%);
+		opacity: 0.9;
 	}
 }
