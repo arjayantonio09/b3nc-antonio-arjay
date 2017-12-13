@@ -11,7 +11,7 @@ body {
 .wrapper {
 	background-color: white;
 	width: 80vw; /* vw = viewport width */
-	/* height: 100vh; */ /* vh = viewport height */
+	/*height: 100vh;  vh = viewport height */
 	margin: 0 auto;
 }
 
@@ -42,30 +42,30 @@ nav {
 	margin: 15px;
 }
 
-#red {
+.red {
 	background-color: red;
 }
 
-#orange {
+.orange {
 	background-color: orange;
 }
 
-#yellow {
+.yellow {
 	background-color: yellow;
 }
 
-#green {
+.green {
 	background-color: green;
 }
 
-#blue {
+.blue {
 	background-color: blue;
 }
 
-#indigo {
+.indigo {
 	background-color: indigo;
 }
 
-#violet {
+.violet {
 	background-color: violet;
 }
