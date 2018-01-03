@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body style="text-align: center;">
+
+	<script>
+
+		var x = 7;
+
+		function guessNum() {
+			var num = document.getElementById("num").value;
+
+			var y = 0;
+			
+			while (y < 3) {
+				if (num < x) {
+					document.getElementById("result").innerHTML = "Higher!";	
+					y++;
+					alert("You have exceeded the limit!");
+				} else if (num > x) {
+					document.getElementById("result").innerHTML = "Lower!";	
+					y++;
+					alert("You have exceeded the limit!");
+				} else {
+					document.getElementById("result").innerHTML = "Correct!";
+				}
+			}
+		}
+
+	</script>
+
+	<h2>Guess the number</h2>
+	<input type="text" id="num">
+	<button onclick="guessNum()">Check</button>
+	<p id="result"></p>
+
+
+
+</body>
+</html>
