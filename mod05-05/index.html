@@ -10,12 +10,14 @@
 		
 		function getNum() {
 			var num = parseInt(document.getElementById("num").value);
-			document.getElementById("show").innerHTML = num + 10;
+			var num1 = parseInt(document.getElementById("num1").value);
+			document.getElementById("show").innerHTML = (num * num1)/100;
 		}
 
 	</script>
 
-	<input type="text" id="num">
+	<input type="text" id="num" placeholder="Enter Amount">
+	<input type="text" id="num1" placeholder="%">
 	<button onclick="getNum()">Go!</button>
 	<p id="show">Show result here</p>
 
